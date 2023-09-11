@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'Todo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'railway' ,
+        'NAME':'Todo',
         'USER': 'postgres',
-        'PASSWORD':'8yKSdRzLuQYPEqyXObCG' ,
-        'HOST': 'containers-us-west-96.railway.app',
-        'PORT': 7864,
+        'PASSWORD':'zoro@123',
+        'HOST': 'localhost',
+        'PORT': 5432,
     }
 }
 
